@@ -1,0 +1,755 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+background: #fff;
+color: #525252;
+overflow-x: hidden;
+
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+    border-color: #0e6498;
+} 
+
+header{
+padding: 11px 0 0;
+
+}
+
+.wrapperi{
+width: 90%;
+margin: 0 auto;
+}
+
+.logo{
+float: left;
+padding: 25px 0;
+
+}
+
+.topRight{
+width: 50%;
+float:right;
+padding: 25px 0 0;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+grid-column-gap: 50px;
+}
+
+.topRight p{
+font-family: 'Lora', serif;
+font-style: italic;
+font-size: 15px;
+line-height: 18px;
+}
+
+
+
+.topRightOne{
+position: relative;
+padding: 0 0 0 45px;
+} 
+
+.topRightOne img{
+position: absolute;
+left: 0;
+top: 0;
+} 
+  
+.topRightOne p{
+display: inline-block;
+vertical-align: middle;
+margin: 0 0 16px;
+}
+
+.topRightTwo ul{
+list-style-type: none;
+margin: 0 0 16px;
+
+} 
+
+.topRightTwo ul li{
+position: relative;
+padding: 0 0 7px 20px;
+top: 8px;
+
+}
+
+.topRightTwo ul li img{
+position: absolute;
+left: 0;
+top: 0;
+vertical-align: middle;
+}
+
+.topRightTwo a{
+vertical-align: middle;
+text-decoration: none;
+color: #525252;
+font-family: 'Lora', serif;
+font-size: 15px;
+}
+
+.topRightTwo a:hover{
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    color: #2084c1;
+}
+
+
+
+.containerOne{
+background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(images/nursing-home-care-1.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+height: auto;
+padding: 30px 0px;
+}
+
+.wrapperOne{
+width: 90%;
+margin: 0 auto;
+}
+
+.topText{
+padding: 20px 0px;
+text-align: center;
+color: #2084c1;
+font-family: 'Kaushan Script', cursive;
+font-size: 60px;
+font-weight: bold;
+}
+
+.paragraphOne{
+font-size: 33px;
+width: 80%;
+margin: 0 auto;
+color: white;
+padding-bottom: 100px;
+font-weight: bold;
+
+}
+
+.hold{
+padding-bottom: 3px;
+width: 45%;
+}
+
+.topTextTwo{
+/* color: rgb(159, 159, 185); */
+color: rgb(193, 193, 236);
+font-size: 31px;
+font-weight: bold;
+padding-bottom: 0px;
+}
+
+.horizontal{
+    color: rgb(193, 193, 236);
+}
+
+.paragraphTwo{
+color: white;
+font-size: 22px;
+font-weight: bold;
+padding-top: 30px;
+}
+
+.gridd{
+display: grid;
+grid-template-columns: repeat(2, .1fr);
+width: 100%;
+grid-gap: 2%;
+}
+
+.gridOne{
+color: black;
+background-color: white;
+width: 280px!important;
+padding: 40px 20px;
+cursor: pointer;
+box-shadow: -10px -10px 15px rgba(255,255,255,0.5),10px 10px 15px rgba(255,255,255,0.5);
+border-radius: 10px;
+transition: transform 0.5s;
+}
+
+.gridOne:hover{
+transform: translateY(-10px);
+}
+
+.gridOne h3{
+color: #2084c1;
+padding-bottom: 5px;
+font-weight:bold;
+}
+
+.gridOne h4{
+color: grey;
+padding-bottom: 3px;
+font-weight:bold;
+font-size: 18px;
+}
+
+.gridOne h5{
+color: grey;
+padding-bottom: 10px;
+font-weight:bold;
+font-size: 15px;
+}
+
+.gridOne p{
+padding-bottom: 10px;
+font-size: 18px;
+}
+
+.gridOne .btn0 {
+display: block;
+background: #2084c1;
+color: #fff;
+padding: 7px 6px;
+text-align: center;
+text-decoration: none;
+font-size: 14px;
+cursor: pointer;
+width: 100px;
+height: 30px;
+border-radius: 10px;
+    
+}
+
+.gridOne .btn0:hover{
+background: black;
+color: #2084c1;
+}
+
+.homeparagraph{
+color: white;
+font-size: 21px;
+padding-top: 30px;
+}
+
+.homeparagraph a{
+display: block;
+background: #2084c1;
+color: #fff;
+padding: 7px 6px;
+text-align: center;
+text-decoration: none;
+font-size: 14px;
+cursor: pointer;
+width: 100px;
+height: 30px;
+border-radius: 10px;
+}
+
+.homeparagraph a:hover{
+background: white;
+color: black;
+}
+
+.containerTwo{
+padding: 20px 15px;
+}
+
+.wrapperTwo p{
+margin-top: 10px;
+}
+
+.wrapperInner{
+background-color: #f8f7f3;
+padding: 5px 10px 15px 10px;
+margin-top: 5px;
+font-size: 15px;
+font-family:  Helvetica,Arial, sans-serif;
+height: auto;
+}
+
+.wrapperInner p{
+padding-bottom: 15px;
+font-weight: bold;
+color: black;
+}
+
+.wrapperInner .p-2{
+ font-weight: normal;
+    }
+
+
+.wrapperInner .goodText{
+font-weight: bold !important;
+background: url(images/green.png) no-repeat right center transparent !important;
+ color: black !important; 
+padding: 11px 20px 11px 0 !important;
+font-size: 18px !important;
+margin-top: 2px !important;
+
+}
+
+.wrapperInner a{
+    display: block;
+    color: #6c276a !important;
+    background: #ffffff;
+    padding: 8px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold !important;
+    cursor: pointer;
+    width: 140px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #c9c6b9 !important;
+    box-shadow: 0 1px 2px #c9c6b9;
+}
+
+.icon1{
+vertical-align: middle;
+}
+
+footer {
+padding: 11px 0 0;
+background: #2084c1;
+color: #fff;
+height: auto;
+
+}
+
+.wrapperFooter{
+width: 90%;
+margin: 0 auto;
+
+}
+
+.gridFooter{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.logoFooter{
+    padding: 25px 0 ;
+    }
+
+footer .wrapperRight{
+margin-top: 24px;
+}
+
+footer .wrapperRight ul{
+    list-style-type: none;
+}
+
+footer .wrapperRight ul img{
+color: black;
+}
+
+footer .wrapperRight ul .lastLi{
+margin-top: 5px;
+}
+
+footer .wrapperFooter a{
+color: white;
+text-decoration: none;
+}
+
+footer .wrapperFooter a:hover{
+color: black;
+
+}
+
+
+/* ---------------------jobapplication.html-------------------------- */
+.container{
+height: auto;
+padding: 30px 0px;
+}
+
+.container .wrapper01{
+width: 90%;
+margin: 0 auto;
+}
+
+.grid{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.grid p{
+    color: #2084c1;
+}
+
+.container .wrapper01 h1{
+font-size: 21px;
+font-weight: bold;
+}
+
+.container .wrapper01 p{
+padding-bottom: 1px;
+}
+
+.container .wrapper01 p:last-child{
+padding-bottom: 20px;
+color: gray;
+    }
+
+.container .wrapper01 .applyBtn0{
+float:right;
+background: #2084c1;
+color: #fff;
+padding: 9px 10px;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+width: 170px;
+height: 35px;
+border-radius: 10px;
+}
+
+.container .wrapper01 a:hover{
+background: black;
+color: #0e6498;
+}
+
+.container .wrapper01 h2{
+padding-top: 18px;
+line-height: 40px;
+font-size: 16px;
+}
+
+.container .wrapper01 ul{
+margin: 0 0 16px;
+padding: 0 0 0 40px;
+line-height: 25px;
+}
+
+.container .wrapper01 a{
+background: #2084c1;
+color: #fff;
+padding: 10px 45px;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+width: 170px;
+height: 35px;
+border-radius: 10px;
+}
+
+.applyBtnDiv{
+padding: 20px 0px;
+}
+
+
+/* ---------------------jobapplicationform.html-------------------------- */
+
+.containerA{
+    height: auto;
+    padding: 30px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(images/elderlycare.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+height: auto;
+padding: 30px 0px;
+    }
+
+.containerA .wrapper01{
+    width: 90%;
+    margin: 0 auto;
+    }
+
+.topText01 h1{
+text-align: center;
+font-size: 30px !important;
+font-weight: bold;
+padding: 30px 0;
+color: #fcfcfc;
+}
+
+.contact-box{
+width: 700px;
+background-color: #fff;
+opacity: 0.9 !important;
+box-shadow: 0 0 20px 0 #999;
+margin: 0 auto;
+}
+form{
+margin: 35px;
+padding: 10px 0;
+}
+.form-group{
+padding-top: 20px;
+}
+.input-field{
+font-size: 15px;
+width: 600px;
+height: 40px;
+margin-top: 5px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #777;
+/* border-radius: 14px; */
+outline: none;
+}
+.textarea-field{
+height: 200px;
+padding-top: 10px;
+}
+.btn0{
+border-radius: 5px;
+color: #fff;
+margin-top: 18px;
+padding: 10px;
+background-color:#2084c1;
+font-size: 12px;
+border: none;
+cursor: pointer;
+width: 100px;
+}
+
+.btn0:hover{
+    background-color:black;
+    color: #2084c1;
+}
+
+
+@media (max-width:1148px) {
+.wrapperi{
+width: 100%;
+margin: 0 auto;
+} 
+}
+
+
+@media (max-width:1037px) {
+.wrapperi{
+width: 95%;
+margin: 0 auto;
+}   
+
+.topRight{
+    width: 60%;
+}
+
+.logo img{
+height: 45px;
+}
+
+}
+
+@media (max-width:911px) {
+.topRight{
+grid-column-gap: 30px;
+width: 65%;
+}
+.wrapper{
+    width: 100%;
+}
+
+
+.container .wrapper01 .applyBtn{
+float: none;
+}
+
+.grid{
+display: grid;
+ grid-template-columns: repeat(1,1fr);
+}
+
+
+}
+
+@media (max-width: 877px){
+.wrapperFooter{
+width: 98%;
+margin: 0 auto;
+}
+}
+
+/*---Job application form----*/
+@media (max-width: 800px){
+    .contact-box{
+        width: 600px;
+        }
+        .input-field{
+        width: 500px;
+        }
+}
+/*---Job application form----*/
+
+@media (max-width:780px){
+    .wrapperFooter{
+        width: 90%;
+        margin: 0 auto;
+        
+        }
+
+    .gridFooter{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
+
+        .logoFooter{
+            padding: 25px 0 0px;
+            }
+}
+
+@media (max-width:766px){
+    .topRight{
+        grid-column-gap: 0px;
+        width: 65%;
+        }
+
+}
+
+@media (max-width:736px){
+.wrapperi{
+width:90%;
+margin: 0 auto;
+}
+
+.logo{
+width: 100%;
+float: none;
+margin: 0 auto;
+padding: 10px 0;
+text-align: center;
+}
+.logo img{
+height: 60px;
+}
+
+.topRight{
+grid-template-columns: repeat(1, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+float: none;
+width: 100%;
+padding: 12px 0;
+}
+
+.topRightOne{
+float: none;
+width: 250px;
+margin: 0px auto;
+}
+
+.topRightTwo{
+float: none;
+width: 250px;
+margin: 0px auto;
+}
+
+.hold{
+width: 70%;
+}
+
+}
+
+/*---Job application form----*/
+@media (max-width: 690px){
+    .contact-box{
+        width: 400px;
+        }
+        .input-field{
+        width: 300px;
+        }
+}
+/*---Job application form----*/
+
+
+@media (max-width:670px){
+    .topText{
+        font-size: 50px;
+        }
+        
+        .paragraphOne{
+        font-size: 30px;
+        }
+
+        .topTextTwo{
+            font-size: 30px;
+            }
+            
+            .paragraphTwo{
+            font-size: 22px;
+            }
+
+
+      
+        }         
+
+
+@media (max-width:625px){
+    .gridd{
+        margin: 0 auto;
+        width: 70%;
+        grid-template-columns: repeat(1, 1fr);
+        
+           
+            }   
+}        
+
+@media (max-width:550px){
+    .hold{
+        margin: 0 auto;
+        }
+
+    .homeparagraphdiv{
+    margin: 0 auto;
+    width: 80%;
+    }
+}   
+
+/*---Job application form----*/
+@media (max-width: 500px){
+    .contact-box{
+        width: 300px;
+        }
+        .input-field{
+        width: 200px;
+        }
+}
+/*---Job application form----*/
+
+/*---Job application form----*/
+@media (max-width: 400px){
+    .contact-box{
+        width: 280px;
+        }
+        .input-field{
+        width: 200px;
+        }
+}
+/*---Job application form----*/
+
+
+/*---Job application form----*/
+@media (max-width: 370px){
+    .contact-box{
+        width: 280px;
+        }
+        .input-field{
+        width: 200px;
+        }
+}
+/*---Job application form----*/
